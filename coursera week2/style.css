@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+div.container{
+    min-width:50%;
+    margin:auto;
+}
+div.one{
+    position: relative;
+    float: left;
+    background-color: blue;
+    border:2px solid black;    
+}
+p{
+    padding-top:10px;
+    margin:20px;
+    text-align: left;
+    font-size: 1.1em;
+}
+div.small{
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    right:0;
+    top:0;
+    background-color: green;
+    border: 3px solid black;
+    padding:3px;
+}
+@media(min-width:992px){
+    .one{
+        width: 28%;
+        margin:20px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .one{
+        width: 40%;
+        margin:20px;
+    }
+    #one{
+        width:85%;
+    }
+}
+@media(max-width:767px){
+    .one{
+        width: 80%;
+        margin:20px;
+    }
+}
