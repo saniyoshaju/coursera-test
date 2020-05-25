@@ -1,0 +1,207 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 80px;
+
+}
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.logo{
+    width: 50%;
+    padding: 19px;
+    margin-left: 17%;
+    
+}
+.login{
+    width: 50%;
+    float: right;
+    color: white;
+    
+}
+.logo-text{
+    color: white;
+    font-size: 280%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: -1;
+    
+}
+.logins{
+    font-size: 13px;
+}
+.login-controls{
+margin-left: 15%;
+}
+.forgot
+{
+    font-size: 13px;
+    color: #9cb4d8;
+    cursor: pointer;
+}
+.log{
+    background-color: #1a5ee6;
+    color: white;
+    border-color: #5f769e;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid#587291;
+    background: #4267b3;
+}
+.log:hover{
+    background:#3b5998;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding-left: 12%;
+    padding: top 1%;
+}
+.right{
+    width: 30%;
+    float: left;
+}
+.main-body{
+    background:linear-gradient(white, #D3D8E8);;
+    width:100%;
+    height:600px;
+}
+.para{
+    font-weight: bold;
+    color:#0e385f;
+    font-size: 120%;
+    margin-top: 45px;
+    width: 470px;
+    word-spacing: -1px;
+}
+.account{
+    margin-left: -20%;
+    font-family: inherit;
+    font-size: 250%;
+    font-weight: bold;
+    color: #333;
+    padding-left:0%;
+    margin-top: 4%;
+    word-spacing: 1px;
+}
+.quick{
+    margin-left: -20%;
+    font-family: inherit;
+    font-weight: normal;
+    margin-top: -6%;
+    color: #1d2129;
+    font-size: 19px;
+
+}
+.name{
+    margin-left: -20%;
+    height: 30px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+.sname{
+    margin-left: %;
+    height: 30px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+.mob{
+    margin-left: -20%;
+    width: 80%;
+    margin-top: 2%;
+    height: 30px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+.sel1{
+    margin-left: -19%;
+    height: 30px;
+    border: 2px solid rgb(224, 224, 224);
+   
+}
+.sel2{
+    height: 30px;
+    border: 2px solid rgb(224, 224, 224);
+   
+}
+.sel3{
+
+    height: 30px;
+    border: 2px solid rgb(224, 224, 224);
+    border-color: rgb(224, 224, 224);
+   
+}
+.birth{
+    margin-left: -82px;
+    font-weight: bold;
+    color: grey;
+}
+.hlo{
+    margin-top: -3%;
+}
+.gen{
+    font-weight: bold;
+    color: grey;
+    margin-left: -82px;
+}
+.rad{
+    margin-left: -70px;
+
+}
+.small{
+    margin-left: -19%;
+    color: #777;
+    font-size: 11px;
+}
+.sign{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #69a74e;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    background: linear-gradient(#67ae55, #578843);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 100%;
+    box-shadow: inset 0 1px 1px #a4e388;
+    height: 35px;
+    font-weight: bold !important;
+    width: 40%;
+    margin-left: -19%;
+    cursor: pointer;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+}
+.last{
+    margin-top: 10%;
+    margin-left: -19%;
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+}
+.sign:hover{
+    background: rgb(122, 175, 48);
+}
+.page:hover{
+    
+    cursor: pointer;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}
+.sa{
+    max-width: 90px;
+}
+.signup-field{
+    color:red;
+}
+.rad .error{
+    color: red;
+}
